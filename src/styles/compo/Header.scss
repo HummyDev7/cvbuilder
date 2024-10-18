@@ -1,0 +1,20 @@
+.header__container {
+  background-color: $base-black;
+  color: $base-white;
+  width: auto;
+  height: $size-56px;
+  display: flex;
+  align-items: center;
+  .sub__header {
+
+    .left__content {
+      
+      .logo {
+        font-size: $size-24px;
+        .span__text {
+          color: $primary-clr;
+        }
+      }
+    }
+  }
+}
