@@ -1,13 +1,11 @@
 .sidebar__container {
-  width: 100vw;
-  margin-top: $size-118px;
-  border: 1px solid red;
 
   .side__bar {
     background-color: $base-black;
     width:$size-72px;
     height: $size-280px;
-    border-radius: $size-8px  ;
+    border-radius: $size-8px;
+    box-shadow: $thin-drop-shadow-3;
 
     .icon__container {
       display: flex;
@@ -15,11 +13,12 @@
       align-items: center;
       height: $size-280px;
       justify-content: center;
-      gap: $size-16px;
-
+      gap: $size-20px;
+      
       div {
         .icon__img {
           width: $size-40px;
+          vertical-align:top
         }
       }
     }
